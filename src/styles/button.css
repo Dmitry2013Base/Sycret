@@ -1,0 +1,21 @@
+.button-base {
+    font-size: 18px;
+    background-color: var(--button-hover-color);
+    padding: 7px 12px;
+    border: 2px solid var(--default-color);
+    border-radius: 10px;
+    color: var(--default-color);
+    transition: .2s linear;
+}
+
+.button-base:hover {
+    cursor: pointer;
+    background-color: var(--default-color);
+    color: var(--button-hover-color);
+}
+
+.button-base:disabled {
+    pointer-events: none;
+    color: var(--default-disabled-color);
+    border-color: var(--default-disabled-color);
+}

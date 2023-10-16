@@ -1,0 +1,43 @@
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.arrow {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    color: var(--arrow-back-color);
+}
+
+.form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.form-error {
+    font-size: 18px;
+    color: var(--error-color);
+}

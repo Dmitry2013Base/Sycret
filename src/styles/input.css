@@ -1,0 +1,34 @@
+.input-container {
+  position: relative;
+  width: 100%;
+  min-height: 46px;
+}
+
+.input-container:has(.textarea) {
+  height: 80px;
+}
+
+.input,
+.textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 24px;
+  background-color: var(--content-backgroung);
+  padding: 5px 10px;
+  border: 2px solid var(--default-color);
+  border-radius: 10px;
+}
+
+.textarea {
+  resize: none;
+}
+
+.input-placeholder {
+  font-size: 14px;
+  color: gray;
+  position: absolute;
+  top: -20px;
+  left: 0px;
+}
